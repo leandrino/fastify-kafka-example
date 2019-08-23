@@ -1,0 +1,19 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "Simple example using node and apache kafka",
+  "main": "index.js",
+  "author": "Leandro Alexandrino <alexandrinowd@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fastify": "^2.7.1",
+    "kafkajs": "^1.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
